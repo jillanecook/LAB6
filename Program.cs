@@ -23,8 +23,8 @@ namespace LAB_6
                 string number = "0123456789";
                 string symbol = "!@#$%^&*()";
                 char[] inputArray = input.ToArray();
-                char c = input[0]; //tommy: have spent days trying to figure out how to search other indexes, not just Index 0.  
-                                    // have also tried various versions of IndexOf,IndexofAny and input.Length but could not get it.
+                char c = input[0]; //tommy: have been trying to figure out how to search other indexes, not just Index 0.  
+                                    //have also tried various versions of IndexOf,IndexofAny and input.Length
                 string firstLetter;
                 string restWord;
                 string pigLatinWord;
